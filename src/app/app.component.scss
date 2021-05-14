@@ -9,6 +9,15 @@
         border: 1px solid gray;
         width: 500px;
         box-sizing: border-box;
+        font-size: 16px;
+        padding:1.5rem;
+        background-color: #EFEFEF;
+        border:1px solid #E6E6E6;
+        color:#777676;
+        &:focus{
+            color:#000;
+            font-weight: bold;
+        }
     }
 
     ul{
@@ -16,11 +25,12 @@
         padding-left: 0;
 
         li{
-            height: 50px;
-            border: 1px solid gray;
+            min-height: 50px;
+            border: 1px solid #ACD8FE;
             width: 500px;
             box-sizing: border-box;
             margin-bottom: 1rem;
+            padding:1rem;
         }
     }
 }
